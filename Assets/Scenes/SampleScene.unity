@@ -248,8 +248,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   totalRectangleX: 100
   totalRectangleZ: 100
-  highScale: 10
-  heightMap: {fileID: 2800000, guid: 8127e812c15c45d4da3fddac8077a6eb, type: 3}
+  highScale: 5
+  heightMap: {fileID: 2800000, guid: f214b97203759ba47a24b8c816bfc412, type: 3}
   material: {fileID: 2100000, guid: b0edb3283fa4d894db3e291d1868a8be, type: 2}
 --- !u!4 &808923903
 Transform:

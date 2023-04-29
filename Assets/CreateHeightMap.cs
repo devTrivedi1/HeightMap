@@ -53,7 +53,7 @@ public class CreateHeightMap : MonoBehaviour
             {
                 Color pixel = heightMap.GetPixel(-x, -z);
                 int i = x + z * totalVerticesX;
-                vertices[i] = new Vector3(x, pixel.r * highScale, z);
+                vertices[i] = new Vector3(-x, pixel.r * highScale, z);
             }
         }
         indecies = new int[totalIndecies];
